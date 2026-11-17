@@ -24,8 +24,7 @@ class Student {
         return regNo.equals(s.regNo);
     }
 
-    // TODO 1 completed
-    @Override
+
     public int hashCode() {
         return Objects.hash(regNo);
     }
